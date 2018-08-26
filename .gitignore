@@ -1,0 +1,5 @@
+# Cache files
+*.pak
+
+# macOS custom folder files
+.DS_Store
