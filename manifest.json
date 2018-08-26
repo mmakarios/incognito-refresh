@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Incognito Refresh",
+  "description": "A custom theme that tries to mimick Chrome's Incognito mode colors, based on the Material Refresh UI update.",
+  "version": "1.0",
+  "theme": {
+    "colors": {
+      "bookmark_text": [255, 255, 255],
+      "frame": [32, 33, 36],
+      "frame_inactive": [110, 110, 110],
+      "frame_incognito": [32, 33, 36],
+      "frame_incognito_inactive": [110, 110, 110],
+      "ntp_background": [32, 33, 36],
+      "ntp_link_underline": [255, 0, 0],
+      "ntp_text": [255, 255, 255],
+      "tab_background_text": [255, 255, 255],
+      "tab_text": [255, 255, 255],
+      "toolbar": [50, 54, 57]
+    },
+    "images": {
+      "theme_ntp_background": "images/theme_ntp_background.png"
+    },
+    "properties": {
+      "ntp_background_repeat": "repeat",
+      "ntp_logo_alternate": 1
+    },
+    "tints": {
+      "buttons": [0, 0, 1]
+    }
+  }
+}
